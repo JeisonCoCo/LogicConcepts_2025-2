@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{EBFB1688-F606-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberOddOfNot", "IsNumberOddOfNot\IsNumberOddOfNot.csproj", "{5858FE89-7731-47FD-8EB2-E645C6A00196}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{40B94FD9-F469-41A4-9F14-FDF4F6DC3A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreathesNumber", "TheGreathesNumber\TheGreathesNumber.csproj", "{029B30D2-EA71-42F5-B1A9-F5FCA1CF73F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{5858FE89-7731-47FD-8EB2-E645C6A00196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5858FE89-7731-47FD-8EB2-E645C6A00196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5858FE89-7731-47FD-8EB2-E645C6A00196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029B30D2-EA71-42F5-B1A9-F5FCA1CF73F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029B30D2-EA71-42F5-B1A9-F5FCA1CF73F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029B30D2-EA71-42F5-B1A9-F5FCA1CF73F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029B30D2-EA71-42F5-B1A9-F5FCA1CF73F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5858FE89-7731-47FD-8EB2-E645C6A00196} = {EBFB1688-F606-44C6-A8CB-7A91D86B987D}
+		{029B30D2-EA71-42F5-B1A9-F5FCA1CF73F6} = {40B94FD9-F469-41A4-9F14-FDF4F6DC3A68}
 	EndGlobalSection
 EndGlobal
