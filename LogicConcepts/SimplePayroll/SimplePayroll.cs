@@ -1,8 +1,7 @@
 ﻿//using Shared;
 
-using System.Globalization;
 
-var continueV = "s";
+var go = "s";
 
 do
 {
@@ -33,7 +32,7 @@ do
     }
 
     Console.Write("Desea continuar [S/N]? : ");
-    continueV = Console.ReadLine()!.ToUpper();
+    go = Console.ReadLine()!.ToUpper();
     Console.Write("-----------------------------------------------------------------------\n");
 
-} while (continueV.Equals("S", StringComparison.OrdinalIgnoreCase));
+} while (go.Equals("S", StringComparison.OrdinalIgnoreCase));
