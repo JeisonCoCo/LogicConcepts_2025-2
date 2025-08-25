@@ -5,10 +5,10 @@ var continuar = "s";
 do
 {
     Console.Write("Ingrese el primer número entero : ");
-    int a = int.Parse(Console.ReadLine()!); // a es el divisor
+    var a = int.Parse(Console.ReadLine()!); // a es el divisor - Console.ReadLine : pide ingresar por consola
 
     Console.Write("Ingrese el segundo número entero: ");
-    int b = int.Parse(Console.ReadLine()!); //b es el dividendo
+    var b = int.Parse(Console.ReadLine()!); // b es el dividendo
 
     if (b % a == 0)
     {

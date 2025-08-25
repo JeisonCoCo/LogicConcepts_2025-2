@@ -6,13 +6,13 @@ var continuar = "s ->> para salir";
 do
 {
     Console.Write("Ingrese el primer número entero: ");
-    int a = int.Parse(Console.ReadLine()!);
+    var a = int.Parse(Console.ReadLine()!);
 
     Console.Write("Ingrese el segundo número entero: ");
-    int b = int.Parse(Console.ReadLine()!);
+    var b = int.Parse(Console.ReadLine()!);
 
     Console.Write("Ingrese el tercer número entero: ");
-    int c = int.Parse(Console.ReadLine()!);
+    var c = int.Parse(Console.ReadLine()!);
 
     if (a > b && a > c)
     {
